@@ -3,7 +3,7 @@
    "symbol": "",
    "description": "Mystery Box NFTs can exchange gold level Booster NFT, including gold microphone, instruments and small Stadium NFT on MKTV.iO, MKTV is a web3 lifestyle app with social-fi and game-fi elements. Users equipped with NFT microphones, instruments and stages – sing, read or podcast home, in MKTV or even outside to earn RSPT, which can be used to speed up token mining.",
    "seller_fee_basis_points": 1000,
-   "image": "image.mp4",
+   "image": "image.png",
    "attributes": [
      {
        "trait_type": "Level",
@@ -17,11 +17,11 @@
    "properties": {
      "files": [
        {
-         "uri": "image.mp4",
-         "type": "image/mp4"
+         "uri": "image.png",
+         "type": "image/png"
        }
      ],
-     "category": "Animation",
+     "category": "image",
      "creators": [
        {
          "address": "DLkn6XMaTnSB4QYyMe5b4AgLQWiEemMo19SfAzDk6bsJ",
