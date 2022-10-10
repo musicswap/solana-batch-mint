@@ -1,31 +1,31 @@
 {
-   "name": "__PLACEHOLDER__",
+   "name": "MKTV Gold Music Mystery Box NFTs",
    "symbol": "",
-   "description": "Celebratory NFT mint by @sayuru-akash //change this to any description you prefer",
-   "seller_fee_basis_points": __PLACEHOLDER__,
-   "image": "image.png",
+   "description": "Mystery Box NFTs can exchange gold level Booster NFT, including gold microphone, instruments and small Stadium NFT on MKTV.iO, MKTV is a web3 lifestyle app with social-fi and game-fi elements. Users equipped with NFT microphones, instruments and stages – sing, read or podcast home, in MKTV or even outside to earn RSPT, which can be used to speed up token mining.",
+   "seller_fee_basis_points": 1000,
+   "image": "image.mp4",
    "attributes": [
      {
-       "trait_type": "__PLACEHOLDER__",
-       "value": "__PLACEHOLDER__"
+       "trait_type": "Level",
+       "value": "Gold"
      }
    ],
    "collection": {
-      "name": "__PLACEHOLDER__",
-      "family": "__PLACEHOLDER__"
+      "name": "MKTV Music Mystery Box",
+      "family": "MKTV NFTs"
    },
    "properties": {
      "files": [
        {
-         "uri": "image.png",
-         "type": "image/png"
+         "uri": "image.mp4",
+         "type": "image/mp4"
        }
      ],
-     "category": "image",
+     "category": "Animation",
      "creators": [
        {
-         "address": "__PLACEHOLDER__",
-         "share": __PLACEHOLDER__
+         "address": "DLkn6XMaTnSB4QYyMe5b4AgLQWiEemMo19SfAzDk6bsJ",
+         "share": 100
        }
      ]
    }

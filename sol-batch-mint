@@ -207,7 +207,7 @@ check_alt() {
 candy_machine() {
    solana config set --url https://api.${network}.solana.com >/dev/null # set solana network
    check_cmd $? "unable to set Solana network"
-   keyJSON="${HOME}/.config/solana/wallet.json"
+   keyJSON="${HOME}/.config/solana/id.json"
 
    if [ ! -f $keyJSON ]; then # only if keypair doesn't exist
       if [ "${pubkey}" = "new" ]; then # generate new wallet
@@ -491,7 +491,7 @@ init_mint() {
 }
 
 mint() {
-   if [ ! -f "${HOME}/.config/solana/wallet.json" ]; then
+   if [ ! -f "${HOME}/.config/solana/id.json" ]; then
       err_print "Solana keypair not found! Please run 'initial_mint' to setup environment properly!"
       exit 14
    fi
